@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 个人内容模块（模板除外）
+content_*.py
+!scripts/content_template.py
+
+# 生成的文档与简历原文件
+*.docx
+*.pdf
+*.doc
+*.png
+*.jpg
+*.jpeg
+
+# 临时目录
+_tmp_*/
+.tmp/
